@@ -2,6 +2,9 @@
 <template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="58ddc6df-b6b2-4388-bfc4-e7385eb12369" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
   <name>1</name>
   <settings>
+    <options>
+      <option name="publishArtifactCondition" value="SUCCESSFUL" />
+    </options>
     <parameters />
     <build-runners />
     <vcs-settings />
