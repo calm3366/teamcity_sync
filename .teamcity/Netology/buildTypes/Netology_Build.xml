@@ -21,7 +21,6 @@
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Netology_HttpsGithubComCalm3366exampleTeamcityGitRefsHeadsMaster" />
       <vcs-entry-ref root-id="Netology_Gitnew" />
     </vcs-settings>
     <requirements />
