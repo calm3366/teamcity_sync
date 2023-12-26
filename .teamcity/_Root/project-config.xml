@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="bb1b1a4d-0ff1-42f2-8f95-4b7350df8296" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>&lt;Root project&gt;</name>
+  <description>Contains all other projects</description>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_1" type="ReportTab">
+      <parameters>
+        <param name="startPage" value="coverage.zip!index.html" />
+        <param name="title" value="Code Coverage" />
+        <param name="type" value="BuildReportTab" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_3" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="ignoreChangesInDependenciesAndVcsSettings" value="false" />
+        <param name="rootId" value="Synchronizing" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup>
+    <options>
+      <option name="preventDependenciesArtifactsFromCleanup" value="false" />
+    </options>
+  </cleanup>
+</project>
+
