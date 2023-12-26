@@ -3,15 +3,16 @@
   <name>https://github.com/calm3366/example-teamcity.git#refs/heads/master</name>
   <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
   <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
-  <param name="authMethod" value="PASSWORD" />
+  <param name="authMethod" value="TEAMCITY_SSH_KEY" />
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
-  <param name="secure:password" value="credentialsJSON:36056ca1-3d68-4f88-9510-beb339565256" />
+  <param name="secure:password" value="" />
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="teamcity:branchSpec" value="refs/heads/*" />
-  <param name="url" value="https://github.com/calm3366/example-teamcity.git" />
+  <param name="teamcitySshKey" value="rsa_teamc" />
+  <param name="url" value="git@github.com:calm3366/example-teamcity.git" />
   <param name="useAlternates" value="AUTO" />
-  <param name="username" value="calm3366" />
+  <param name="username" value="git" />
   <param name="usernameStyle" value="USERID" />
 </vcs-root>
 
