@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="**/* =&gt; target_directory" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="Maven2" name="" type="Maven2">
